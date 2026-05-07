@@ -362,3 +362,85 @@
         padding: 80px 5%;
       }
     }
+    @media (max-width: 768px) {
+
+  header {
+    padding: 15px 5%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .hero,
+  .main {
+    min-height: 100vh;
+    padding: 120px 5% 60px;
+    text-align: center;
+    background-position: center bottom;
+  }
+
+  .hero h1,
+  .main h1 {
+    font-size: 38px;
+    line-height: 1.1;
+  }
+
+  .hero p,
+  .main p {
+    font-size: 16px;
+  }
+
+  .menu-grid,
+  .grid,
+  .gallery-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .card,
+  .dish {
+    height: auto;
+  }
+
+  .card img,
+  .dish img {
+    height: 240px;
+  }
+
+  .booking-box,
+  .reserve-card {
+    width: 100%;
+    padding: 25px;
+  }
+
+  form {
+    grid-template-columns: 1fr !important;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    width: 100%;
+  }
+
+  .map-card {
+    width: 95%;
+    height: 300px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px 5%;
+  }
+}
