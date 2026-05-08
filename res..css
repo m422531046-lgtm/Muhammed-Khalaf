@@ -236,6 +236,7 @@
       gap: 18px;
     }
 
+
     input, select, textarea {
       width: 100%;
       padding: 16px 18px;
@@ -443,4 +444,8 @@
     text-align: center;
     padding: 30px 5%;
   }
+}
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
 }
