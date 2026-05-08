@@ -436,8 +436,8 @@
   }
 
   .map-card {
-    width: 95%;
-    height: 300px;
+    width: 55%;
+    height: 280px;
   }
 
   footer {
@@ -448,4 +448,8 @@
 input[type="date"]::-webkit-calendar-picker-indicator,
 input[type="time"]::-webkit-calendar-picker-indicator {
     filter: invert(1);
+}
+.map-card{
+  width: 45% !important;
+  height: 300px !important;
 }
